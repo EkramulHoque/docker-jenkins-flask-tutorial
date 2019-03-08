@@ -9,8 +9,8 @@ app = Flask(__name__)
 # Load the model
 model = pickle.load(open('model.pkl','rb'))
 labels ={
-  0: "setosa",
-  1: "versicolor",
+  0: "versicolor",   
+  1: "setosa",
   2: "virginica"
 }
 
