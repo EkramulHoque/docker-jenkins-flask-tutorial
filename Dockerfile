@@ -14,6 +14,10 @@ RUN pip install -r requirements.txt
 
 COPY . /app
 
-ENTRYPOINT [ "./shell.sh" ]
+COPY shell.sh
+
+RUN chmod a+x shell.sh
+
+CMD ["./shell.sh"]
 
  

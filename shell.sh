@@ -1,1 +1,4 @@
-python model.py && python server.py
+#!/bin/bash
+
+exec python3 model.py &
+exec python3 server.py
