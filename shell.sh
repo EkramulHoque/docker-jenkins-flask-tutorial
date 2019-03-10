@@ -1,4 +1,3 @@
 #!/bin/bash
-
-exec python3 model.py &
-exec python3 server.py
+set -e
+python model.py && python server.py
