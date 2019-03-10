@@ -14,8 +14,6 @@ RUN pip install -r requirements.txt
 
 COPY . /app
 
-RUN chmod a+x shell.sh
-
-CMD ["shell.sh"]
+ENTRYPOINT /model.py & /server.py
 
  
