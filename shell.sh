@@ -1,2 +1,2 @@
-model.py
-server.py
+#!/usr/bin/env bash
+python model.py && python server.py
