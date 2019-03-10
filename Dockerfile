@@ -14,8 +14,6 @@ RUN pip install -r requirements.txt
 
 COPY . /app
 
-COPY shell.sh
-
 RUN chmod a+x shell.sh
 
 CMD ["./shell.sh"]
