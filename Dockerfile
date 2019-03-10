@@ -16,4 +16,4 @@ COPY . /app
 
 ENTRYPOINT [ "python" ]
 
-CMD ["model.py","server.py" ]
+CMD ["python model.py & python server.py" ]
