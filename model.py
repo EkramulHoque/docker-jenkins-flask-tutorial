@@ -30,4 +30,5 @@ pickle.dump(classifier, open('model.pkl','wb'))
 model = pickle.load( open('model.pkl','rb'))
 x = [[6.7, 3.3, 5.7, 2.1]]
 predict = model.predict(x)
+print("Hello World")
 print(labels[predict[0]])
