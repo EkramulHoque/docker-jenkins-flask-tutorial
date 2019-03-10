@@ -14,5 +14,6 @@ RUN pip install -r requirements.txt
 
 COPY . /app
 
-ENTRYPOINT [ "sh","shell.sh"]
+ENTRYPOINT [ "python" ]
 
+CMD [ "server.py" ]
