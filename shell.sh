@@ -1,4 +1,2 @@
-#!/bin/sh
-python server.py
-
-
+model.py
+server.py
