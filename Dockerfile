@@ -16,6 +16,6 @@ COPY . /app
 
 RUN chmod a+x shell.sh
 
-CMD ["./shell.sh"]
+CMD ["shell.sh"]
 
  
