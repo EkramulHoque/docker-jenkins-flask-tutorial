@@ -14,6 +14,5 @@ RUN pip install -r requirements.txt
 
 COPY . /app
 
-ENTRYPOINT [ "sh" ]
+ENTRYPOINT [ "/bin/bash", "-c", "shell.sh"]
 
-CMD [ "shell.sh" ]
